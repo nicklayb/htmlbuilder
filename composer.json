@@ -1,0 +1,16 @@
+{
+    "name": "nicklayb/htmlbuilder",
+    "description": "Useful helper to build server side html with tag chaining creation and templates for things like Bootstrap.",
+    "authors": [
+        {
+            "name": "Nicolas Boisvert",
+            "email": "nicklay@me.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nicklayb\\": "src/"
+        }
+    },
+    "require": {}
+}
