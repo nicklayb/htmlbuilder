@@ -124,3 +124,15 @@ use MyNamespace\BsButton;
 (new BsButton('danger'))    //  <button class="btn btn-danger"></button>   
 
 ```
+
+## Conclusion
+
+Thank you for using, testing and improving it and feel free to contact me for any question.
+
+Ending joke :
+> A QA engineer enter a bar
+> He order 1 beer
+> He order 0.3 beer
+> He order null beer
+> He order a lizard
+> He order ¡ beer
