@@ -3,13 +3,16 @@
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
 use Nicklayb\HtmlBuilder\Tags\Table;
+use Nicklayb\HtmlBuilder\Tags\Div;
 
-$table = new Table;
-
-$table->head([
-    'test',
-    'dest',
-    'rest'
+$div = new Div([
+    'main',
+    'primary-div'
 ]);
+$div->child(
+    (new Div('second'))->child(
+        (new Div('third'))->content('Tada, stuff!')
+    )
+);
 
-echo $table->make();
+echo $div->make();
