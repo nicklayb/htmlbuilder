@@ -139,6 +139,11 @@ class Tag
         return $this->uniqueAttr('name', $value);
     }
 
+    public function title($text)
+    {
+        return $this->attr('title', $text, true);
+    }
+
     public function classes($values)
     {
         return $this->attr('class', $values);
